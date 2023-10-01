@@ -1,4 +1,158 @@
+:root {
+  --IRIS: #4d5ae5;
+  --OCEAN: #404bbf;
+  --NAVY-BLUE: #2e2f42;
+  --GREEN: #31d0aa;
+  --SLATE: #434455;
+  --LIGHT-SLATE: #8e8f99;
+  --CORNFLOWER: #e7e9fc;
+  --CLOUD: #f4f4fd;
+  --NAVY-BLUE-modal: #2e2f4266;
+  --GREY: #2e2f42b2;
+  --WHITE: #ffffff;
+  --DAIRY: #fcfcfc;
+}
+
 body {
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
+  color: var(--NAVY-BLUE);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.1666666666666667;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.logo > span {
+  color: var(--IRIS);
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.address-list {
+  list-style-type: none;
+}
+
+.address-link {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  color: var(--SLATE);
+}
+
+.hero {
+  color: var(--WHITE);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.0714285714285714;
+  letter-spacing: 1.12px;
+  background-color: var(--NAVY-BLUE);
+}
+
+.hero-button {
+  color: var(--WHITE);
+  background: var(--IRIS);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.advantages {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  list-style-type: none;
+}
+
+.description {
+  color: var(--SLATE);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.images-list {
+  list-style-type: none;
+}
+.team-presentation {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1111111111111112;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.team-member-name {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.job-name {
+  color: var(--SLATE);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.footer-logo {
+  color: var(--IRIS);
+}
+
+.footer-logo > span {
+  color: var(--CLOUD);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.1666666666666667;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.footer-attributes {
+  background-color: var(--NAVY-BLUE);
+}
+
+.slogan {
+  color: var(--CLOUD);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Portfolio */
+.filter-button {
+  background-color: var(--color-main);
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--color-example);
 }
