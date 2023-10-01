@@ -30,17 +30,22 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--IRIS);
   text-decoration: none;
 }
 
 .logo > span {
-  color: var(--IRIS, #4d5ae5);
+  color: var(--NAVY-BLUE);
 }
 
 .link {
   text-decoration: none;
 }
+
+.list {
+  list-style: none;
+}
+
 .all-list {
   list-style-type: none;
 }
@@ -49,23 +54,31 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   text-decoration: none;
-  color: inherit;
+  color: var(--NAVY-BLUE);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--OCEAN);
+}
+
+.contact-company {
+  font-style: normal;
 }
 
 .address-link {
   font-size: 16px;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--SLATE);
 }
 
 .address-link:hover,
 .address-link:focus {
-  color: var(--IRIS);
+  color: var(--OCEAN);
 }
 
 /* Studio */
