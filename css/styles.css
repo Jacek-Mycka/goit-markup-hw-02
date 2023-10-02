@@ -189,10 +189,6 @@ body {
 
 .footer-logo {
   color: var(--IRIS);
-}
-
-.secondary-color. {
-  color: var(--CLOUD);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -200,6 +196,15 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+
+.primary-color {
+  color: var(--NAVY-BLUE);
+}
+
+.secondary-color {
+  color: var(--CLOUD);
 }
 
 .footer-attributes {
