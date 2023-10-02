@@ -34,10 +34,6 @@ body {
   text-decoration: none;
 }
 
-.logo > span {
-  color: var(--NAVY-BLUE);
-}
-
 .link {
   text-decoration: none;
 }
@@ -197,7 +193,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-
 
 .primary-color {
   color: var(--NAVY-BLUE);
