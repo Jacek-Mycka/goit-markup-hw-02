@@ -168,7 +168,7 @@ body {
   color: var(--NAVY-BLUE);
 }
 
-.caption-1 {
+.capttion-primary {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -176,7 +176,7 @@ body {
   color: var(--NAVY-BLUE);
 }
 
-.caption-2 {
+.caption-secondary {
   color: var(--SLATE);
   font-size: 16px;
   line-height: 1.5;
