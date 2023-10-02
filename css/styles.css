@@ -215,6 +215,7 @@ body {
 
 /* Portfolio */
 .filter-button {
+  font-family: 'Roboto', sans-serif;
   color: var(--IRIS);
   background-color: var(--CLOUD);
   border: 1px solid var(--CORNFLOWER);
