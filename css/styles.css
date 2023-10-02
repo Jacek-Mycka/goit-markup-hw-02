@@ -92,19 +92,30 @@ body {
   background-color: var(--NAVY-BLUE);
 }
 
+.hero-header {
+  color: var(--WHITE);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
 .hero-button {
   color: var(--WHITE);
-  background: var(--IRIS);
+  background-color: var(--IRIS);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--IRIS);
-  background-color: var(--WHITE);
+  color: var(--WHITE);
+  background-color: var(--OCEAN);
 }
 
 .advantages {
