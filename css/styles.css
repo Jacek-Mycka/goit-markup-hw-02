@@ -1,26 +1,26 @@
 :root {
-  --IRIS: #4d5ae5;
-  --OCEAN: #404bbf;
-  --NAVY-BLUE: #2e2f42;
-  --GREEN: #31d0aa;
-  --SLATE: #434455;
-  --LIGHT-SLATE: #8e8f99;
-  --CORNFLOWER: #e7e9fc;
-  --CLOUD: #f4f4fd;
-  --NAVY-BLUE-modal: #2e2f4266;
-  --GREY: #2e2f42b2;
-  --WHITE: #ffffff;
-  --DAIRY: #fcfcfc;
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --navy-blue-color: #2e2f42;
+  --green-color: #31d0aa;
+  --slate-color: #434455;
+  --light-slate-color: #8e8f99;
+  --cornflower-color: #e7e9fc;
+  --cloud-color: #f4f4fd;
+  --navy-blue-modal-color: #2e2f4266;
+  --grey-color: #2e2f42b2;
+  --white-color: #ffffff;
+  --dairy-color: #fcfcfc;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--SLATE);
-  background-color: var(--WHITE);
+  color: var(--slate-color);
+  background-color: var(--white-color);
 }
 
 .background-navigation {
-  background-color: var(--WHITE);
+  background-color: var(--white-color);
 }
 
 .logo {
@@ -30,7 +30,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: var(--IRIS);
+  color: var(--iris-color);
   text-decoration: none;
 }
 
@@ -48,12 +48,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--NAVY-BLUE);
+  color: var(--navy-blue-color);
 }
 
 .navigation-link:hover,
 .navigation-link:focus {
-  color: var(--OCEAN);
+  color: var(--ocean-color);
 }
 
 .contact-company {
@@ -65,27 +65,26 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--SLATE);
+  color: var(--slate-color);
 }
 
 .address-link:hover,
 .address-link:focus {
-  color: var(--OCEAN);
+  color: var(--ocean-color);
 }
 
-/* Studio */
 .hero {
-  color: var(--WHITE);
+  color: var(--white-color);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.0714285714285714;
   letter-spacing: 1.12px;
-  background-color: var(--NAVY-BLUE);
+  background-color: var(--navy-blue-color);
 }
 
 .hero-header {
-  color: var(--WHITE);
+  color: var(--white-color);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -94,8 +93,8 @@ body {
 }
 
 .hero-button {
-  color: var(--WHITE);
-  background-color: var(--IRIS);
+  color: var(--white-color);
+  background-color: var(--iris-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -106,16 +105,16 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--WHITE);
-  background-color: var(--OCEAN);
+  color: var(--white-color);
+  background-color: var(--ocean-color);
 }
 
 .smaller-headline {
-  font-size: 20px;
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--NAVY-BLUE);
+  color: var(--navy-blue-color);
 }
 
 .bigger-headline {
@@ -125,19 +124,19 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: var(--NAVY-BLUE);
+  color: var(--navy-blue-color);
 }
 
 /*.background-section-3 {
-  background-color: var(--WHITE);
+  background-color: var(--white-color);
 } */
 
 .team-section-background {
-  background-color: var(--CLOUD);
+  background-color: var(--cloud-color);
 }
 
 .card-color {
-  background-color: var(--WHITE);
+  background-color: var(--white-color);
 }
 
 .team-presentation {
@@ -154,18 +153,18 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--NAVY-BLUE);
+  color: var(--navy-blue-color);
 }
 
 .caption-secondary {
-  color: var(--SLATE);
+  color: var(--slate-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .footer-logo {
-  color: var(--IRIS);
+  color: var(--iris-color);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -176,30 +175,29 @@ body {
 }
 
 .primary-color {
-  color: var(--NAVY-BLUE);
+  color: var(--navy-blue-color);
 }
 
 .secondary-color {
-  color: var(--CLOUD);
+  color: var(--cloud-color);
 }
 
 .footer-attributes {
-  background-color: var(--NAVY-BLUE);
+  background-color: var(--navy-blue-color);
 }
 
 .slogan {
-  color: var(--CLOUD);
+  color: var(--cloud-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-/* Portfolio */
 .filter-button {
   font-family: "Roboto", sans-serif;
   color: var(--IRIS);
-  background-color: var(--CLOUD);
-  border: 1px solid var(--CORNFLOWER);
+  background-color: var(--cloud-color);
+  border: 1px solid var(--cornflower-color);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -210,6 +208,6 @@ body {
 
 .filter-button:hover,
 .filter-button:focus {
-  color: var(--WHITE);
-  background-color: var(--OCEAN);
+  color: var(--white-color);
+  background-color: var(--ocean-color);
 }
