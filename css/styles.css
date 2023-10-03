@@ -110,7 +110,7 @@ body {
   background-color: var(--OCEAN);
 }
 
-.section-title {
+.smaller-headline {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -118,7 +118,7 @@ body {
   color: var(--NAVY-BLUE);
 }
 
-.section-title2 {
+.bigger-headline {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.11;
@@ -128,9 +128,9 @@ body {
   color: var(--NAVY-BLUE);
 }
 
-.background-section-3 {
+/*.background-section-3 {
   background-color: var(--WHITE);
-}
+} */
 
 .team-section-background {
   background-color: var(--CLOUD);
@@ -149,7 +149,7 @@ body {
   text-transform: capitalize;
 }
 
-.caption-primary {
+.image-caption {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
