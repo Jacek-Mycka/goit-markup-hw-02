@@ -195,7 +195,7 @@ body {
 
 .filter-button {
   font-family: "Roboto", sans-serif;
-  color: var(--IRIS);
+  color: var(--iris-color);
   background-color: var(--cloud-color);
   border: 1px solid var(--cornflower-color);
   text-align: center;
