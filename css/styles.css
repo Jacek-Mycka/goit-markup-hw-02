@@ -110,7 +110,7 @@ body {
   background-color: var(--OCEAN);
 }
 
-.advantages {
+.section-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -131,7 +131,7 @@ body {
   background-color: var(--WHITE);
 }
 
-.about-us {
+.section-title-2 {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.11;
